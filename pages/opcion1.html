@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/estilo.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <title>Jugar</title>
+</head>
+
+<body>
+    <label for="apuesta">Ingrese su apuesta</label>
+    <input type="text" id="apuesta">
+    <div>
+        <label>
+            <input type="radio" name="opcion" value="CARA"> Cara
+        </label>
+        <label>
+            <input type="radio" name="opcion" value="CRUZ"> Cruz
+        </label>
+    </div>
+    <br><br>
+    <div>
+        <button onclick="pedirChiste()">Antes de empezar le gustaria un chiste asi se relaja?</button> 
+    </div>
+    <br>
+    <br>
+    <br>
+    <button id="boton">Apostar</button>
+    <button onclick="volverCaraCruz()">Volver</button>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="/scripts/opcion1.js"></script>
+    <script src="/scripts/scripts.js"></script>
+</body>
+
+</html>

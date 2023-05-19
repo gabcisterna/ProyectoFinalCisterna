@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/estilo.css">
+    <title>Cara o Cruz</title>
+</head>
+<body>
+    <h1>Bienvenido al Casino</h1>
+    <h2>Si ya tiene una cuenta inicie sesion de lo contrario regístrese</h2>
+    <button onclick="iniciarsesion()">Iniciar Sesion</button>
+    <button onclick="registrarse()">Registrarse</button>
+    <script>
+        function registrarse(){
+            window.location.href = "pages/registrarse.html"
+        }
+
+        function iniciarsesion(){
+            window.location.href = "pages/iniciarsesion.html"
+        }
+    </script>
+</body>
+</html>

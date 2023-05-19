@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel="stylesheet" href="/styles/estilo.css">
+<head>
+    <meta charset="UTF-8">
+    <title>registrarse</title>
+</head>
+<body>
+    <h1>Bienvenido al juego de cara o cruz</h1>
+    <label for="nombre">Ingrese su nombre</label>
+    <input type="text" id="nombre">
+    <label for="correo">Ingrese su correo</label>
+    <input type="text" id="correo">
+    <label for="contraseña">Ingrese su contraseña</label>
+    <input type="password" id="contraseña">
+    <label for="saldo">Ingrese su saldo</label>
+    <input type="text" id="saldo">
+    <div>
+        <br>
+        <div id="mostrar"></div>
+        <button id="registro">Registrarse</button>
+    </div>
+    <div>
+        <br>
+        <h4>Si quiere iniciar sesion presione aqui</h4>
+        <button onclick="iniciarsesion()">iniciar sesion</button>
+    </div>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="/scripts/registrarse.js"></script>
+    <script src="/scripts/scripts.js"></script>
+</body>
+</html>
